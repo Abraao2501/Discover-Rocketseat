@@ -46,3 +46,17 @@ O bloco também criará um novo escopo, chamamos de `block-scoped`
 
     console.log('> existe x depois do bloco?', y)
 ```
+
+## Para criar nomes
+
+* JS é case-sensitive (sensível ao caso)
+* JS aceita a cadeia de caracteres UNICODE
+
+- POSSO
+    * Iniciar com letras minúsculas ou maiúsculas
+    * caracteres especiais: $ _
+    * Acentos
+- NÃO POSSO
+    * Colocar espaços
+    * Iniciar com números
+ 
