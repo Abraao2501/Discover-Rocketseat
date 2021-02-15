@@ -11,3 +11,31 @@ console.log('seu bosta')
 createPhrases()
 createPhrases()
 createPhrases()
+
+//FUNCTIONS É UM LIQUIDIFICADOR
+
+function fazerSuco (fruta1, fruta2) {
+    return fruta1 + fruta2
+}
+const copo = fazerSuco('banana', 'maçã')
+console.log(copo)
+
+//function scoped
+let subject 
+
+function createThink(subject) {
+    subject = 'Create Video'
+    return subject
+}
+
+console.log(study)
+console.log(createThink(subject))
+console.log(study)
+
+//function hoisting
+saMyName()
+
+function saMyName() {
+    console.log('abraao')
+}
+
