@@ -39,3 +39,28 @@ function saMyName() {
     console.log('abraao')
 }
 
+//arrow function
+
+const sayMyName = () => {
+    console.log('Abraão')
+}
+
+//callback function
+function sayMyName(name) {
+    console.log(name)
+}
+sayMyName(
+    () => {
+        console.log("Callback") //Função que é passada como argumento
+    }
+)
+
+//Função construrora
+function Person(name) {
+    this.name = name
+}
+const Eu = new Person('Abraão')
+//Expressão New
+//Cria um Objeto
+//this keyword
+
